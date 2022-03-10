@@ -1,0 +1,140 @@
+07-03-2022 11:19:11.511 | 112  | [main] | INFO  | c.r.pokedex.PokedexApplication - Initializing the Pokédex API
+07-03-2022 11:19:11.603 | 204  | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - Initializing the Pokédex API
+07-03-2022 11:19:11.839 | 440  | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - Starting PokedexApplication using Java 17.0.1 on 8B1C5G3 with PID 2056 (C:\Users\luiz.souza\ws\pokedex\target\classes started by luiz.souza in C:\Users\luiz.souza\ws\pokedex)
+07-03-2022 11:19:11.839 | 440  | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - No active profile set, falling back to 1 default profile: "default"
+07-03-2022 11:19:13.072 | 1673 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - Started PokedexApplication in 1.465 seconds (JVM running for 1.995)
+07-03-2022 11:19:13.076 | 1677 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - API started successfully
+07-03-2022 11:19:46.358 | 34959 | [http-nio-8080-exec-3] | INFO  | c.r.p.controller.PokedexController - Get method initialized
+07-03-2022 11:19:46.712 | 35313 | [http-nio-8080-exec-3] | INFO  | c.r.pokedex.client.PokedexClient - Pokémon's request successfully done.
+07-03-2022 11:19:46.863 | 35464 | [http-nio-8080-exec-3] | INFO  | c.r.pokedex.client.PokedexClient - Pokémon successfully sent to MongoDB
+07-03-2022 11:20:33.718 | 82319 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - Initializing the Pokédex API
+07-03-2022 11:20:45.243 | 93844 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - Starting PokedexApplication using Java 17.0.1 on 8B1C5G3 with PID 2056 (C:\Users\luiz.souza\ws\pokedex\target\classes started by luiz.souza in C:\Users\luiz.souza\ws\pokedex)
+07-03-2022 11:20:45.243 | 93844 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - No active profile set, falling back to 1 default profile: "default"
+07-03-2022 11:20:45.467 | 94068 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - Started PokedexApplication in 0.24 seconds (JVM running for 94.39)
+07-03-2022 11:20:45.468 | 94069 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - API started successfully
+07-03-2022 11:22:01.189 | 169790 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - Initializing the Pokédex API
+07-03-2022 11:22:01.215 | 169816 | [restartedMain] |
+				INFO  | c.r.pokedex.PokedexApplication - Starting PokedexApplication using Java 17.0.1 on 8B1C5G3 with PID 2056 (C:\Users\luiz.souza\ws\pokedex\target\classes started by luiz.souza in C:\Users\luiz.souza\ws\pokedex)
+07-03-2022 11:22:01.215 | 169816 | [restartedMain] |
+				INFO  | c.r.pokedex.PokedexApplication - No active profile set, falling back to 1 default profile: "default"
+07-03-2022 11:22:01.430 | 170031 | [restartedMain] |
+				INFO  | c.r.pokedex.PokedexApplication - Started PokedexApplication in 0.234 seconds (JVM running for 170.353)
+07-03-2022 11:22:01.430 | 170031 | [restartedMain] |
+				INFO  | c.r.pokedex.PokedexApplication - API started successfully
+07-03-2022 11:22:13.150 | 181751 | [restartedMain] |
+				INFO  | c.r.pokedex.PokedexApplication - Initializing the Pokédex API
+07-03-2022 11:22:13.178 | 181779 | [restartedMain] |
+				INFO  | c.r.pokedex.PokedexApplication - Starting PokedexApplication using Java 17.0.1 on 8B1C5G3 with PID 2056 (C:\Users\luiz.souza\ws\pokedex\target\classes started by luiz.souza in C:\Users\luiz.souza\ws\pokedex)
+07-03-2022 11:22:13.178 | 181779 | [restartedMain] |
+				INFO  | c.r.pokedex.PokedexApplication - No active profile set, falling back to 1 default profile: "default"
+07-03-2022 11:22:13.390 | 181991 | [restartedMain] |
+				INFO  | c.r.pokedex.PokedexApplication - Started PokedexApplication in 0.235 seconds (JVM running for 182.313)
+07-03-2022 11:22:13.391 | 181992 | [restartedMain] |
+				INFO  | c.r.pokedex.PokedexApplication - API started successfully
+07-03-2022 11:22:16.925 | 185526 | [restartedMain] |
+				INFO  | c.r.pokedex.PokedexApplication - Initializing the Pokédex API
+07-03-2022 11:22:16.947 | 185548 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - Starting PokedexApplication using Java 17.0.1 on 8B1C5G3 with PID 2056 (C:\Users\luiz.souza\ws\pokedex\target\classes started by luiz.souza in C:\Users\luiz.souza\ws\pokedex)
+07-03-2022 11:22:16.947 | 185548 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - No active profile set, falling back to 1 default profile: "default"
+07-03-2022 11:22:17.157 | 185758 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - Started PokedexApplication in 0.227 seconds (JVM running for 186.079)
+07-03-2022 11:22:17.159 | 185760 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - API started successfully
+07-03-2022 11:22:54.395 | 222996 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - Initializing the Pokédex API
+07-03-2022 11:22:54.423 | 223024 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - Starting PokedexApplication using Java 17.0.1 on 8B1C5G3 with PID 2056 (C:\Users\luiz.souza\ws\pokedex\target\classes started by luiz.souza in C:\Users\luiz.souza\ws\pokedex)
+07-03-2022 11:22:54.423 | 223024 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - No active profile set, falling back to 1 default profile: "default"
+07-03-2022 11:22:54.607 | 223208 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - Started PokedexApplication in 0.207 seconds (JVM running for 223.53)
+07-03-2022 11:22:54.608 | 223209 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - API started successfully
+07-03-2022 11:23:22.866 | 251467 | [http-nio-8080-exec-2] | INFO  | c.r.p.controller.PokedexController - Get method initialized
+07-03-2022 11:23:22.923 | 251524 | [http-nio-8080-exec-2] | INFO  | c.r.pokedex.client.PokedexClient - Pokémon's request successfully done.
+07-03-2022 11:23:22.986 | 251587 | [http-nio-8080-exec-2] | INFO  | c.r.pokedex.client.PokedexClient - Pokémon successfully sent to MongoDB
+07-03-2022 11:31:03.616 | 712217 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - Initializing the Pokédex API
+07-03-2022 11:31:03.638 | 712239 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - Starting PokedexApplication using Java 17.0.1 on 8B1C5G3 with PID 2056 (C:\Users\luiz.souza\ws\pokedex\target\classes started by luiz.souza in C:\Users\luiz.souza\ws\pokedex)
+07-03-2022 11:31:03.638 | 712239 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - No active profile set, falling back to 1 default profile: "default"
+07-03-2022 11:31:03.833 | 712434 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - Started PokedexApplication in 0.213 seconds (JVM running for 712.756)
+07-03-2022 11:31:03.834 | 712435 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - API started successfully
+07-03-2022 11:31:19.350 | 727951 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - Initializing the Pokédex API
+07-03-2022 11:31:19.369 | 727970 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - Starting PokedexApplication using Java 17.0.1 on 8B1C5G3 with PID 2056 (C:\Users\luiz.souza\ws\pokedex\target\classes started by luiz.souza in C:\Users\luiz.souza\ws\pokedex)
+07-03-2022 11:31:19.369 | 727970 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - No active profile set, falling back to 1 default profile: "default"
+07-03-2022 11:31:19.525 | 728126 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - Started PokedexApplication in 0.172 seconds (JVM running for 728.448)
+07-03-2022 11:31:19.526 | 728127 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - API started successfully
+07-03-2022 11:34:39.537 | 928138 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - Initializing the Pokédex API
+07-03-2022 11:34:39.561 | 928162 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - Starting PokedexApplication using Java 17.0.1 on 8B1C5G3 with PID 2056 (C:\Users\luiz.souza\ws\pokedex\target\classes started by luiz.souza in C:\Users\luiz.souza\ws\pokedex)
+07-03-2022 11:34:39.561 | 928162 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - No active profile set, falling back to 1 default profile: "default"
+07-03-2022 11:34:39.809 | 928410 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - Started PokedexApplication in 0.269 seconds (JVM running for 928.732)
+07-03-2022 11:34:39.810 | 928411 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - API started successfully
+07-03-2022 11:36:41.454 | 1050055 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - Initializing the Pokédex API
+07-03-2022 11:36:41.476 | 1050077 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - Starting PokedexApplication using Java 17.0.1 on 8B1C5G3 with PID 2056 (C:\Users\luiz.souza\ws\pokedex\target\classes started by luiz.souza in C:\Users\luiz.souza\ws\pokedex)
+07-03-2022 11:36:41.476 | 1050077 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - No active profile set, falling back to 1 default profile: "default"
+07-03-2022 11:36:41.681 | 1050282 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - Started PokedexApplication in 0.224 seconds (JVM running for 1050.604)
+07-03-2022 11:36:41.682 | 1050283 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - API started successfully
+07-03-2022 11:37:44.160 | 1112761 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - Initializing the Pokédex API
+07-03-2022 11:37:44.180 | 1112781 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - Starting PokedexApplication using Java 17.0.1 on 8B1C5G3 with PID 2056 (C:\Users\luiz.souza\ws\pokedex\target\classes started by luiz.souza in C:\Users\luiz.souza\ws\pokedex)
+07-03-2022 11:37:44.180 | 1112781 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - No active profile set, falling back to 1 default profile: "default"
+07-03-2022 11:37:44.329 | 1112930 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - Started PokedexApplication in 0.166 seconds (JVM running for 1113.252)
+07-03-2022 11:37:44.329 | 1112930 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - API started successfully
+07-03-2022 11:38:13.896 | 1142497 | [http-nio-8080-exec-4] | INFO  | c.r.p.controller.PokedexController - Get method initialized
+07-03-2022 11:38:14.027 | 1142628 | [http-nio-8080-exec-4] | INFO  | c.r.pokedex.client.PokedexClient - Pokémon's request successfully done.
+07-03-2022 11:38:14.081 | 1142682 | [http-nio-8080-exec-4] | INFO  | c.r.pokedex.client.PokedexClient - Pokémon successfully sent to MongoDB
+07-03-2022 11:38:41.795 | 1170396 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - Initializing the Pokédex API
+07-03-2022 11:38:51.420 | 1180021 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - Starting PokedexApplication using Java 17.0.1 on 8B1C5G3 with PID 2056 (C:\Users\luiz.souza\ws\pokedex\target\classes started by luiz.souza in C:\Users\luiz.souza\ws\pokedex)
+07-03-2022 11:38:51.420 | 1180021 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - No active profile set, falling back to 1 default profile: "default"
+07-03-2022 11:38:51.566 | 1180167 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - Started PokedexApplication in 0.161 seconds (JVM running for 1180.489)
+07-03-2022 11:38:51.567 | 1180168 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - API started successfully
+07-03-2022 11:39:00.223 | 1188824 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - Initializing the Pokédex API
+07-03-2022 11:42:53.621 | 107  | [main] |
+				INFO  | c.r.pokedex.PokedexApplication - Initializing the Pokédex API
+07-03-2022 11:42:53.712 | 198  | [restartedMain] |
+				INFO  | c.r.pokedex.PokedexApplication - Initializing the Pokédex API
+07-03-2022 11:42:53.921 | 407  | [restartedMain] |
+				INFO  | c.r.pokedex.PokedexApplication - Starting PokedexApplication using Java 17.0.1 on 8B1C5G3 with PID 9720 (C:\Users\luiz.souza\ws\pokedex\target\classes started by luiz.souza in C:\Users\luiz.souza\ws\pokedex)
+07-03-2022 11:42:53.921 | 407  | [restartedMain] |
+				INFO  | c.r.pokedex.PokedexApplication - No active profile set, falling back to 1 default profile: "default"
+07-03-2022 11:42:55.157 | 1643 | [restartedMain] |
+				INFO  | c.r.pokedex.PokedexApplication - Started PokedexApplication in 1.442 seconds (JVM running for 1.931)
+07-03-2022 11:42:55.159 | 1645 | [restartedMain] |
+				INFO  | c.r.pokedex.PokedexApplication - API started successfully
+07-03-2022 11:43:34.809 | 41295 | [restartedMain] |
+				INFO  | c.r.pokedex.PokedexApplication - Initializing the Pokédex API
+07-03-2022 11:43:34.830 | 41316 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - Starting PokedexApplication using Java 17.0.1 on 8B1C5G3 with PID 9720 (C:\Users\luiz.souza\ws\pokedex\target\classes started by luiz.souza in C:\Users\luiz.souza\ws\pokedex)
+07-03-2022 11:43:34.830 | 41316 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - No active profile set, falling back to 1 default profile: "default"
+07-03-2022 11:43:35.055 | 41541 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - Started PokedexApplication in 0.241 seconds (JVM running for 41.829)
+07-03-2022 11:43:35.056 | 41542 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - API started successfully
+07-03-2022 11:43:42.528 | 49014 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - Initializing the Pokédex API
+07-03-2022 11:43:42.548 | 49034 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - Starting PokedexApplication using Java 17.0.1 on 8B1C5G3 with PID 9720 (C:\Users\luiz.souza\ws\pokedex\target\classes started by luiz.souza in C:\Users\luiz.souza\ws\pokedex)
+07-03-2022 11:43:42.548 | 49034 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - No active profile set, falling back to 1 default profile: "default"
+07-03-2022 11:43:42.750 | 49236 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - Started PokedexApplication in 0.218 seconds (JVM running for 49.524)
+07-03-2022 11:43:42.751 | 49237 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - API started successfully
+07-03-2022 11:43:51.241 | 57727 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - Initializing the Pokédex API
+07-03-2022 11:43:51.261 | 57747 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - Starting PokedexApplication using Java 17.0.1 on 8B1C5G3 with PID 9720 (C:\Users\luiz.souza\ws\pokedex\target\classes started by luiz.souza in C:\Users\luiz.souza\ws\pokedex)
+07-03-2022 11:43:51.261 | 57747 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - No active profile set, falling back to 1 default profile: "default"
+07-03-2022 11:43:51.450 | 57936 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - Started PokedexApplication in 0.206 seconds (JVM running for 58.224)
+07-03-2022 11:43:51.451 | 57937 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - API started successfully
+07-03-2022 11:43:58.990 | 65476 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - Initializing the Pokédex API
+07-03-2022 11:43:59.009 | 65495 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - Starting PokedexApplication using Java 17.0.1 on 8B1C5G3 with PID 9720 (C:\Users\luiz.souza\ws\pokedex\target\classes started by luiz.souza in C:\Users\luiz.souza\ws\pokedex)
+07-03-2022 11:43:59.009 | 65495 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - No active profile set, falling back to 1 default profile: "default"
+07-03-2022 11:43:59.197 | 65683 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - Started PokedexApplication in 0.204 seconds (JVM running for 65.971)
+07-03-2022 11:43:59.198 | 65684 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - API started successfully
+07-03-2022 11:44:12.912 | 79398 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - Initializing the Pokédex API
+07-03-2022 11:44:12.930 | 79416 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - Starting PokedexApplication using Java 17.0.1 on 8B1C5G3 with PID 9720 (C:\Users\luiz.souza\ws\pokedex\target\classes started by luiz.souza in C:\Users\luiz.souza\ws\pokedex)
+07-03-2022 11:44:12.930 | 79416 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - No active profile set, falling back to 1 default profile: "default"
+07-03-2022 11:44:13.113 | 79599 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - Started PokedexApplication in 0.197 seconds (JVM running for 79.887)
+07-03-2022 11:44:13.114 | 79600 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - API started successfully
+07-03-2022 11:44:23.771 | 90257 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - Initializing the Pokédex API
+07-03-2022 11:44:23.789 | 90275 | [restartedMain] |
+				INFO  | c.r.pokedex.PokedexApplication - Starting PokedexApplication using Java 17.0.1 on 8B1C5G3 with PID 9720 (C:\Users\luiz.souza\ws\pokedex\target\classes started by luiz.souza in C:\Users\luiz.souza\ws\pokedex)
+07-03-2022 11:44:23.789 | 90275 | [restartedMain] |
+				INFO  | c.r.pokedex.PokedexApplication - No active profile set, falling back to 1 default profile: "default"
+07-03-2022 11:44:23.965 | 90451 | [restartedMain] |
+				INFO  | c.r.pokedex.PokedexApplication - Started PokedexApplication in 0.19 seconds (JVM running for 90.739)
+07-03-2022 11:44:23.966 | 90452 | [restartedMain] |
+				INFO  | c.r.pokedex.PokedexApplication - API started successfully
+07-03-2022 11:44:45.808 | 112294 | [restartedMain] |
+				INFO  | c.r.pokedex.PokedexApplication - Initializing the Pokédex API
+07-03-2022 11:44:45.826 | 112312 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - Starting PokedexApplication using Java 17.0.1 on 8B1C5G3 with PID 9720 (C:\Users\luiz.souza\ws\pokedex\target\classes started by luiz.souza in C:\Users\luiz.souza\ws\pokedex)
+07-03-2022 11:44:45.826 | 112312 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - No active profile set, falling back to 1 default profile: "default"
+07-03-2022 11:44:46.004 | 112490 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - Started PokedexApplication in 0.192 seconds (JVM running for 112.778)
+07-03-2022 11:44:46.005 | 112491 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - API started successfully
+07-03-2022 11:46:05.008 | 191494 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - Initializing the Pokédex API
+07-03-2022 11:46:13.608 | 200094 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - Starting PokedexApplication using Java 17.0.1 on 8B1C5G3 with PID 9720 (C:\Users\luiz.souza\ws\pokedex\target\classes started by luiz.souza in C:\Users\luiz.souza\ws\pokedex)
+07-03-2022 11:46:13.608 | 200094 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - No active profile set, falling back to 1 default profile: "default"
+07-03-2022 11:46:13.783 | 200269 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - Started PokedexApplication in 0.19 seconds (JVM running for 200.557)
+07-03-2022 11:46:13.784 | 200270 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - API started successfully
+07-03-2022 11:46:45.799 | 232285 | [restartedMain] | INFO  | c.r.pokedex.PokedexApplication - Initializing the Pokédex API

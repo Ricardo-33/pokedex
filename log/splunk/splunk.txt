@@ -1,0 +1,150 @@
+{ "timestamp": 07-03-2022 11:13:52.463, "message": Starting PokedexApplication using Java 17.0.1 on 8B1C5G3 with PID 8264 (C:\Users\luiz.souza\ws\pokedex\target\classes started by luiz.souza in C:\Users\luiz.souza\ws\pokedex),
+				"logger_name": c.r.pokedex.PokedexApplication, "thread_name": [restartedMain], "level":
+				INFO  }
+{ "timestamp": 07-03-2022 11:13:52.463, "message": No active profile set, falling back to 1 default profile: "default",
+				"logger_name": c.r.pokedex.PokedexApplication, "thread_name": [restartedMain], "level":
+				INFO  }
+{ "timestamp": 07-03-2022 11:13:52.533, "message": Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.,
+				"logger_name": o.s.d.r.c.RepositoryConfigurationDelegate, "thread_name": [restartedMain], "level":
+				INFO  }
+{ "timestamp": 07-03-2022 11:13:52.540, "message": Finished Spring Data repository scanning in 3 ms. Found 1 MongoDB repository interfaces.,
+				"logger_name": o.s.d.r.c.RepositoryConfigurationDelegate, "thread_name": [restartedMain], "level":
+				INFO  }
+{ "timestamp": 07-03-2022 11:13:52.572, "message": Tomcat initialized with port(s): 8080 (http),
+				"logger_name": o.s.b.w.e.tomcat.TomcatWebServer, "thread_name": [restartedMain], "level":
+				INFO  }
+{ "timestamp": 07-03-2022 11:13:52.573, "message": Starting service [Tomcat],
+				"logger_name": o.a.catalina.core.StandardService, "thread_name": [restartedMain], "level":
+				INFO  }
+{ "timestamp": 07-03-2022 11:13:52.573, "message": Starting Servlet engine: [Apache Tomcat/9.0.58],
+				"logger_name": o.a.catalina.core.StandardEngine, "thread_name": [restartedMain], "level":
+				INFO  }
+{ "timestamp": 07-03-2022 11:13:52.582, "message": Initializing Spring embedded WebApplicationContext,
+				"logger_name": o.a.c.c.C.[Tomcat].[localhost].[/], "thread_name": [restartedMain], "level":
+				INFO  }
+{ "timestamp": 07-03-2022 11:13:52.582, "message": Root WebApplicationContext: initialization completed in 117 ms,
+				"logger_name": o.s.b.w.s.c.ServletWebServerApplicationContext, "thread_name": [restartedMain], "level":
+				INFO  }
+{ "timestamp": 07-03-2022 11:13:52.590, "message": Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'},
+				"logger_name": org.mongodb.driver.cluster, "thread_name": [restartedMain], "level":
+				INFO  }
+{ "timestamp": 07-03-2022 11:13:52.593, "message": Opened connection [connectionId{localValue:6, serverValue:61}] to localhost:27017,
+				"logger_name": org.mongodb.driver.connection, "thread_name": [cluster-ClusterId{value='6226132086105c633ba5422d', description='null'}-localhost:27017], "level":
+				INFO  }
+{ "timestamp": 07-03-2022 11:13:52.593, "message": Opened connection [connectionId{localValue:5, serverValue:60}] to localhost:27017,
+				"logger_name": org.mongodb.driver.connection, "thread_name": [cluster-rtt-ClusterId{value='6226132086105c633ba5422d', description='null'}-localhost:27017], "level":
+				INFO  }
+{ "timestamp": 07-03-2022 11:13:52.593, "message": Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1133000},
+				"logger_name": org.mongodb.driver.cluster, "thread_name": [cluster-ClusterId{value='6226132086105c633ba5422d', description='null'}-localhost:27017], "level":
+				INFO  }
+{ "timestamp": 07-03-2022 11:13:52.602, "message": LiveReload server is running on port 35729,
+				"logger_name": o.s.b.d.a.OptionalLiveReloadServer, "thread_name": [restartedMain], "level":
+				INFO  }
+{ "timestamp": 07-03-2022 11:13:52.653, "message": Tomcat started on port(s): 8080 (http) with context path '',
+				"logger_name": o.s.b.w.e.tomcat.TomcatWebServer, "thread_name": [restartedMain], "level":
+				INFO  }
+{ "timestamp": 07-03-2022 11:13:52.654, "message": Started PokedexApplication in 0.208 seconds (JVM running for 389.73),
+				"logger_name": c.r.pokedex.PokedexApplication, "thread_name": [restartedMain], "level":
+				INFO  }
+{ "timestamp": 07-03-2022 11:13:52.655, "message": Condition evaluation unchanged,
+				"logger_name": o.s.b.d.a.ConditionEvaluationDeltaLoggingListener, "thread_name": [restartedMain], "level":
+				INFO  }
+{ "timestamp": 07-03-2022 11:13:52.656, "message": API started successfully,
+				"logger_name": c.r.pokedex.PokedexApplication, "thread_name": [restartedMain], "level":
+				INFO  }
+{ "timestamp": 07-03-2022 11:14:13.599, "message": Application shutdown requested.,
+				"logger_name": o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin, "thread_name": [RMI TCP Connection(16)-127.0.0.1], "level":
+				INFO  }
+{ "timestamp": 07-03-2022 11:14:22.004, "message": Initializing the Pokédex API,
+				"logger_name": c.r.pokedex.PokedexApplication, "thread_name": [main], "level":
+				INFO  }
+{ "timestamp": 07-03-2022 11:14:22.098, "message": Initializing the Pokédex API,
+				"logger_name": c.r.pokedex.PokedexApplication, "thread_name": [restartedMain], "level":
+				INFO  }
+{ "timestamp": 07-03-2022 11:14:22.316, "message": Starting PokedexApplication using Java 17.0.1 on 8B1C5G3 with PID 1992 (C:\Users\luiz.souza\ws\pokedex\target\classes started by luiz.souza in C:\Users\luiz.souza\ws\pokedex),
+				"logger_name": c.r.pokedex.PokedexApplication, "thread_name": [restartedMain], "level":
+				INFO  }
+{ "timestamp": 07-03-2022 11:14:22.317, "message": No active profile set, falling back to 1 default profile: "default",
+				"logger_name": c.r.pokedex.PokedexApplication, "thread_name": [restartedMain], "level":
+				INFO  }
+{ "timestamp": 07-03-2022 11:14:22.343, "message": Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable,
+				"logger_name": o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor, "thread_name": [restartedMain], "level":
+				INFO  }
+{ "timestamp": 07-03-2022 11:14:22.344, "message": For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG',
+				"logger_name": o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor, "thread_name": [restartedMain], "level":
+				INFO  }
+{ "timestamp": 07-03-2022 11:14:22.662, "message": Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.,
+				"logger_name": o.s.d.r.c.RepositoryConfigurationDelegate, "thread_name": [restartedMain], "level":
+				INFO  }
+{ "timestamp": 07-03-2022 11:14:22.688, "message": Finished Spring Data repository scanning in 23 ms. Found 1 MongoDB repository interfaces.,
+				"logger_name": o.s.d.r.c.RepositoryConfigurationDelegate, "thread_name": [restartedMain], "level":
+				INFO  }
+{ "timestamp": 07-03-2022 11:14:22.961, "message": Tomcat initialized with port(s): 8080 (http),
+				"logger_name": o.s.b.w.e.tomcat.TomcatWebServer, "thread_name": [restartedMain], "level":
+				INFO  }
+{ "timestamp": 07-03-2022 11:14:22.966, "message": Initializing ProtocolHandler ["http-nio-8080"],
+				"logger_name": o.a.coyote.http11.Http11NioProtocol, "thread_name": [restartedMain], "level":
+				INFO  }
+{ "timestamp": 07-03-2022 11:14:22.966, "message": Starting service [Tomcat],
+				"logger_name": o.a.catalina.core.StandardService, "thread_name": [restartedMain], "level":
+				INFO  }
+{ "timestamp": 07-03-2022 11:14:22.966, "message": Starting Servlet engine: [Apache Tomcat/9.0.58],
+				"logger_name": o.a.catalina.core.StandardEngine, "thread_name": [restartedMain], "level":
+				INFO  }
+{ "timestamp": 07-03-2022 11:14:23.005, "message": Initializing Spring embedded WebApplicationContext,
+				"logger_name": o.a.c.c.C.[Tomcat].[localhost].[/], "thread_name": [restartedMain], "level":
+				INFO  }
+{ "timestamp": 07-03-2022 11:14:23.005, "message": Root WebApplicationContext: initialization completed in 661 ms,
+				"logger_name": o.s.b.w.s.c.ServletWebServerApplicationContext, "thread_name": [restartedMain], "level":
+				INFO  }
+{ "timestamp": 07-03-2022 11:14:23.090, "message": Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'},
+				"logger_name": org.mongodb.driver.cluster, "thread_name": [restartedMain], "level":
+				INFO  }
+{ "timestamp": 07-03-2022 11:14:23.128, "message": Opened connection [connectionId{localValue:2, serverValue:63}] to localhost:27017,
+				"logger_name": org.mongodb.driver.connection, "thread_name": [cluster-rtt-ClusterId{value='6226133f4665776e31609801', description='null'}-localhost:27017], "level":
+				INFO  }
+{ "timestamp": 07-03-2022 11:14:23.128, "message": Opened connection [connectionId{localValue:1, serverValue:62}] to localhost:27017,
+				"logger_name": org.mongodb.driver.connection, "thread_name": [cluster-ClusterId{value='6226133f4665776e31609801', description='null'}-localhost:27017], "level":
+				INFO  }
+{ "timestamp": 07-03-2022 11:14:23.129, "message": Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=15396100},
+				"logger_name": org.mongodb.driver.cluster, "thread_name": [cluster-ClusterId{value='6226133f4665776e31609801', description='null'}-localhost:27017], "level":
+				INFO  }
+{ "timestamp": 07-03-2022 11:14:23.199, "message": LiveReload server is running on port 35729,
+				"logger_name": o.s.b.d.a.OptionalLiveReloadServer, "thread_name": [restartedMain], "level":
+				INFO  }
+{ "timestamp": 07-03-2022 11:14:23.447, "message": Starting ProtocolHandler ["http-nio-8080"],
+				"logger_name": o.a.coyote.http11.Http11NioProtocol, "thread_name": [restartedMain], "level":
+				INFO  }
+{ "timestamp": 07-03-2022 11:14:23.472, "message": Tomcat started on port(s): 8080 (http) with context path '',
+				"logger_name": o.s.b.w.e.tomcat.TomcatWebServer, "thread_name": [restartedMain], "level":
+				INFO  }
+{ "timestamp": 07-03-2022 11:14:23.478, "message": Started PokedexApplication in 1.376 seconds (JVM running for 1.849),
+				"logger_name": c.r.pokedex.PokedexApplication, "thread_name": [restartedMain], "level":
+				INFO  }
+{ "timestamp": 07-03-2022 11:14:23.480, "message": API started successfully,
+				"logger_name": c.r.pokedex.PokedexApplication, "thread_name": [restartedMain], "level":
+				INFO  }
+{ "timestamp": 07-03-2022 11:14:30.309, "message": Initializing Spring DispatcherServlet 'dispatcherServlet',
+				"logger_name": o.a.c.c.C.[Tomcat].[localhost].[/], "thread_name": [http-nio-8080-exec-3], "level":
+				INFO  }
+{ "timestamp": 07-03-2022 11:14:30.309, "message": Initializing Servlet 'dispatcherServlet',
+				"logger_name": o.s.web.servlet.DispatcherServlet, "thread_name": [http-nio-8080-exec-3], "level":
+				INFO  }
+{ "timestamp": 07-03-2022 11:14:30.309, "message": Completed initialization in 0 ms,
+				"logger_name": o.s.web.servlet.DispatcherServlet, "thread_name": [http-nio-8080-exec-3], "level":
+				INFO  }
+{ "timestamp": 07-03-2022 11:14:30.334, "message": Get method initialized,
+				"logger_name": c.r.p.controller.PokedexController, "thread_name": [http-nio-8080-exec-3], "level":
+				INFO  }
+{ "timestamp": 07-03-2022 11:14:30.629, "message": Pokémon's request successfully done.,
+				"logger_name": c.r.pokedex.client.PokedexClient, "thread_name": [http-nio-8080-exec-3], "level":
+				INFO  }
+{ "timestamp": 07-03-2022 11:14:30.793, "message": Opened connection [connectionId{localValue:3, serverValue:64}] to localhost:27017,
+				"logger_name": org.mongodb.driver.connection, "thread_name": [http-nio-8080-exec-3], "level":
+				INFO  }
+{ "timestamp": 07-03-2022 11:14:30.803, "message": Pokémon successfully sent to MongoDB,
+				"logger_name": c.r.pokedex.client.PokedexClient, "thread_name": [http-nio-8080-exec-3], "level":
+				INFO  }
+{ "timestamp": 07-03-2022 11:14:46.383, "message": Initializing the Pokédex API,
+				"logger_name": c.r.pokedex.PokedexApplication, "thread_name": [restartedMain], "level":
+				INFO  }

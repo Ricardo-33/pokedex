@@ -6,7 +6,10 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -16,25 +19,35 @@ import com.google.gson.JsonObject;
 import com.ricardo.pokedex.models.Pokemon;
 import com.ricardo.pokedex.repository.PokedexRepository;
 
-import lombok.extern.slf4j.Slf4j;
-
 @Service
-@Slf4j
 public class PokedexClient {
+	
+	private static final Logger LOGGER = LoggerFactory.getLogger(PokedexClient.class);
 
 	@Autowired
 	PokedexRepository pokedexRepository;
-
-	public void findPokemonByName(String pokemonName) {
+		
+	public Pokemon findPokemonByName(String pokemonName) {
+		Pokemon pokemon = null;
+		
 		try {
-
+			Optional<Pokemon> pokemonData = pokedexRepository.findByName(pokemonName);		
+			if (!pokemonData.isEmpty()) {
+				return pokemonData.get();
+			}
+			
 			URL url = new URL("https://pokeapi.co/api/v2/pokemon/" + pokemonName);
 			HttpURLConnection conn = (HttpURLConnection) url.openConnection();
 			conn.setRequestMethod("GET");
 			conn.setRequestProperty("Accept", "application/json");
+
 			if (conn.getResponseCode() != 200) {
+				LOGGER.error("Pokémon: " + pokemonName + " not found in the Poké API. Verify Pokémon's name");
 				throw new RuntimeException("Failed : HTTP Error code : " + conn.getResponseCode());
 			}
+			
+			LOGGER.info("Pokémon's request successfully done.");
+
 			InputStreamReader in = new InputStreamReader(conn.getInputStream());
 			BufferedReader br = new BufferedReader(in);
 
@@ -55,6 +68,14 @@ public class PokedexClient {
 			JsonObject childObjectSprites = jsonObject.getAsJsonObject("sprites");
 			String pokemonSprite = childObjectSprites.get("front_default").getAsString();
 
+			JsonArray jsonArrayObjectStats = jsonObject.get("stats").getAsJsonArray();
+			String hp = jsonArrayObjectStats.get(0).getAsJsonObject().get("base_stat").getAsString();
+			String attack = jsonArrayObjectStats.get(1).getAsJsonObject().get("base_stat").getAsString();
+			String defense = jsonArrayObjectStats.get(2).getAsJsonObject().get("base_stat").getAsString();
+			String specialAttack = jsonArrayObjectStats.get(3).getAsJsonObject().get("base_stat").getAsString();
+			String specialDefense = jsonArrayObjectStats.get(4).getAsJsonObject().get("base_stat").getAsString();
+			String speed = jsonArrayObjectStats.get(5).getAsJsonObject().get("base_stat").getAsString();
+
 			JsonArray jsonArrayObjectTypes = jsonObject.get("types").getAsJsonArray();
 
 			List<String> types = new ArrayList<>();
@@ -73,55 +94,19 @@ public class PokedexClient {
 				abilities.add(ability);
 			}
 
-			JsonArray jsonArrayObjectStats = jsonObject.get("stats").getAsJsonArray();
+			pokemon = new Pokemon(id, name, pokemonSprite, height, weight, types, abilities, hp, attack,
+					defense, specialAttack, specialDefense, speed);
 
-//	    		List<PokemonStats> pokemonStats = new ArrayList<>();
-//	    		for (int i = 0; i < jsonArrayObjectStats.size(); i++) {
-//					String statName = jsonArrayObjectStats.get(i).getAsJsonObject().get("stat").getAsJsonObject()
-//							.get("name").getAsString();
-//					String baseStat = jsonArrayObjectStats.get(i).getAsJsonObject().get("base_stat").getAsString();
-//					
-//					PokemonStats pk = new PokemonStats(statName, baseStat);
-//					pokemonStats.add(pk);
-//	    		}
-//	    		System.out.println(pokemonStats);
-
-//	    		List<HashMap<String, String>> pokemonStats = new ArrayList<>();
-//	    		HashMap<String, String> pokemonStat = new HashMap<>();
-//	    		for (int i = 0; i < jsonArrayObjectStats.size(); i++) {
-//	    			String statName = jsonArrayObjectStats.get(i).getAsJsonObject().get("stat").getAsJsonObject().get("name")
-//	    					.getAsString();
-//	    			String baseStat = jsonArrayObjectStats.get(i).getAsJsonObject().get("base_stat").getAsString();
-//	    			
-//	    			pokemonStat.put("name", statName);
-//	    			pokemonStat.put("base_stat", baseStat);
-//	    			
-//	    			pokemonStats.add(pokemonStat);	
-//	    		}
-
-			List<String> pokemonStatName = new ArrayList<>();
-			for (int i = 0; i < jsonArrayObjectStats.size(); i++) {
-				String statName = jsonArrayObjectStats.get(i).getAsJsonObject().get("stat").getAsJsonObject()
-						.get("name").getAsString();
-				pokemonStatName.add(statName);
-			}
-
-			List<String> pokemonBaseStat = new ArrayList<>();
-			for (int i = 0; i < jsonArrayObjectStats.size(); i++) {
-				String baseStat = jsonArrayObjectStats.get(i).getAsJsonObject().get("base_stat").getAsString();
-				pokemonBaseStat.add(baseStat);
-			}
-
-			Pokemon pokemon = new Pokemon(name, id, pokemonSprite, height, weight, types, abilities, pokemonStatName,
-					pokemonBaseStat);
-
-//	    		System.out.println(pokemon);
 			pokedexRepository.save(pokemon);
-
+			LOGGER.info("Pokémon successfully sent to MongoDB");
 			conn.disconnect();
+			
+
 		} catch (Exception e) {
-			System.out.println("Exception in NetClientGet:- " + e);
+			LOGGER.error("Pokémon's parameters not matching JsonObject. Message: " + e);
 		}
+		
+		return pokemon;
 
 	}
 
